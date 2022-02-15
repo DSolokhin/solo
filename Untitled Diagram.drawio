@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T11:58:36.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="udOaCxWZ0yIzbuhiyI1F" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T12:11:13.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="0Z-11mECKWlIbI82GSoD" version="16.5.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxPoint x="1210.2777777777778" y="240.08333333333337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2228" value="&lt;font color=&quot;#23445d&quot;&gt;WAN&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#742B21;align=center;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="2228" value="&lt;font color=&quot;#23445d&quot;&gt;WAN (DHCP)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#742B21;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="480" y="81" width="73" height="19" as="geometry" />
         </mxCell>
         <mxCell id="rcNIR8N15N0gZI9l1xsj-2260" value="" style="shape=mxgraph.cisco.routers.wireless_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontFamily=Helvetica;" vertex="1" parent="1">
@@ -38,10 +38,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rcNIR8N15N0gZI9l1xsj-2264" value="&lt;div style=&quot;text-align: center; font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#23445d&quot; face=&quot;helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;172.25.79.84&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="480" y="90" width="110" height="50" as="geometry" />
+          <mxGeometry x="480" y="100" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rcNIR8N15N0gZI9l1xsj-2266" value="&lt;font color=&quot;#23445d&quot;&gt;WLAN&lt;br&gt;192.168.0.1/24&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="515" y="240" width="73" height="19" as="geometry" />
+        <mxCell id="rcNIR8N15N0gZI9l1xsj-2266" value="&lt;font color=&quot;#23445d&quot;&gt;WLAN&lt;br&gt;192.168.0.1-254&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="515" y="246" width="73" height="19" as="geometry" />
         </mxCell>
         <mxCell id="rcNIR8N15N0gZI9l1xsj-2267" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=11;exitX=0.688;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2091" target="rcNIR8N15N0gZI9l1xsj-2260">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,7 +61,7 @@
         <mxCell id="rcNIR8N15N0gZI9l1xsj-2271" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=center;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="730" y="70" width="191" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="rcNIR8N15N0gZI9l1xsj-2272" value="&lt;font color=&quot;#23445d&quot;&gt;LAN 192.168.1.2/24&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="rcNIR8N15N0gZI9l1xsj-2272" value="&lt;font color=&quot;#23445d&quot;&gt;LAN (DHCP) 192.168.1.2-254&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#742B21;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="660" y="117" width="110" height="19" as="geometry" />
         </mxCell>
         <mxCell id="rcNIR8N15N0gZI9l1xsj-2274" value="&lt;div style=&quot;text-align: center ; font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#23445d&quot; face=&quot;helvetica&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;Router&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center ; font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#23445d&quot; face=&quot;helvetica&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;192.168.1.1&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
